@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://onFire-Abhi-s-workspace-4g9l1a.us-east-1.xata.sh/db/dine-neepal",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

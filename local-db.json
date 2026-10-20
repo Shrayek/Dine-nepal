@@ -1,0 +1,222 @@
+{
+  "restaurants": [
+    {
+      "id": "rest-1",
+      "name": "Bhojan Griha",
+      "location": "Dillibazar, Kathmandu",
+      "seatCount": 16,
+      "image": {
+        "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
+      },
+      "xata.createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "rest-2",
+      "name": "Thakali Bhanchha Ghar",
+      "location": "Jhamsikhel, Lalitpur",
+      "seatCount": 16,
+      "image": {
+        "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80"
+      },
+      "xata.createdAt": "2024-01-02T00:00:00.000Z"
+    },
+    {
+      "id": "rest-3",
+      "name": "Lakeside Heritage Cafe",
+      "location": "Lakeside, Pokhara",
+      "seatCount": 16,
+      "image": {
+        "url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=800&q=80"
+      },
+      "xata.createdAt": "2024-01-03T00:00:00.000Z"
+    },
+    {
+      "id": "rest-4",
+      "name": "Newari Samay Baji Corner",
+      "location": "Durbar Square, Bhaktapur",
+      "seatCount": 16,
+      "image": {
+        "url": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+      },
+      "xata.createdAt": "2024-01-04T00:00:00.000Z"
+    }
+  ],
+  "seats": [
+    {
+      "id": "seat-rest-3-0-0",
+      "restaurant": "rest-3",
+      "row": 0,
+      "column": 0,
+      "label": "00",
+      "status": "available"
+    },
+    {
+      "id": "seat-rest-3-0-1",
+      "restaurant": "rest-3",
+      "row": 0,
+      "column": 1,
+      "label": "01",
+      "status": "available"
+    },
+    {
+      "id": "seat-rest-3-0-2",
+      "restaurant": "rest-3",
+      "row": 0,
+      "column": 2,
+      "label": "02",
+      "status": "available"
+    },
+    {
+      "id": "seat-rest-3-0-3",
+      "restaurant": "rest-3",
+      "row": 0,
+      "column": 3,
+      "label": "03",
+      "status": "available"
+    },
+    {
+      "id": "seat-rest-3-1-0",
+      "restaurant": "rest-3",
+      "row": 1,
+      "column": 0,
+      "label": "10",
+      "status": "available"
+    },
+    {
+      "id": "seat-rest-3-1-1",
+      "restaurant": "rest-3",
+      "row": 1,
+      "column": 1,
+      "label": "11",
+      "status": "available"
+    },
+    {
+      "id": "seat-rest-3-1-2",
+      "restaurant": "rest-3",
+      "row": 1,
+      "column": 2,
+      "label": "12",
+      "status": "available"
+    },
+    {
+      "id": "seat-rest-3-1-3",
+      "restaurant": "rest-3",
+      "row": 1,
+      "column": 3,
+      "label": "13",
+      "status": "available"
+    },
+    {
+      "id": "seat-rest-3-2-0",
+      "restaurant": "rest-3",
+      "row": 2,
+      "column": 0,
+      "label": "20",
+      "status": "available"
+    },
+    {
+      "id": "seat-rest-3-2-1",
+      "restaurant": "rest-3",
+      "row": 2,
+      "column": 1,
+      "label": "21",
+      "status": "available"
+    },
+    {
+      "id": "seat-rest-3-2-2",
+      "restaurant": "rest-3",
+      "row": 2,
+      "column": 2,
+      "label": "22",
+      "status": "available"
+    },
+    {
+      "id": "seat-rest-3-2-3",
+      "restaurant": "rest-3",
+      "row": 2,
+      "column": 3,
+      "label": "23",
+      "status": "available"
+    },
+    {
+      "id": "seat-rest-3-3-0",
+      "restaurant": "rest-3",
+      "row": 3,
+      "column": 0,
+      "label": "30",
+      "status": "available"
+    },
+    {
+      "id": "seat-rest-3-3-1",
+      "restaurant": "rest-3",
+      "row": 3,
+      "column": 1,
+      "label": "31",
+      "status": "available"
+    },
+    {
+      "id": "seat-rest-3-3-2",
+      "restaurant": "rest-3",
+      "row": 3,
+      "column": 2,
+      "label": "32",
+      "status": "available"
+    },
+    {
+      "id": "seat-rest-3-3-3",
+      "restaurant": "rest-3",
+      "row": 3,
+      "column": 3,
+      "label": "33",
+      "status": "available"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "booking-1",
+      "restaurant": {
+        "id": "rest-1",
+        "name": "Bhojan Griha"
+      },
+      "user": {
+        "id": "user-1",
+        "name": "Aarav Sharma",
+        "email": "aarav@example.com"
+      },
+      "time": "2026-10-21T09:38:18.795Z",
+      "interval": 60,
+      "remarks": "Window seat preferred for traditional dinner."
+    }
+  ],
+  "bookingSeats": [
+    {
+      "id": "bs-1",
+      "booking": "booking-1",
+      "seat": {
+        "label": "Table 1 (00)"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "restaurant": "rest-1",
+      "user": {
+        "name": "Shreya Shrestha",
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80"
+      },
+      "stars": 5,
+      "review": "The authentic Nepali flavors and traditional cultural performance made it an unforgettable dinner experience!"
+    },
+    {
+      "id": "rev-2",
+      "restaurant": "rest-1",
+      "user": {
+        "name": "Rohan KC",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
+      },
+      "stars": 4,
+      "review": "Excellent food, generous portions, and very warm hospitable staff."
+    }
+  ]
+}
